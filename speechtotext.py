@@ -1,4 +1,7 @@
 import azure.cognitiveservices.speech as speechsdk
+# You will need to add a package for the Cognitive Services speech functions so open a terminal window
+# in VS Code Online and paste the following command in the terminal window, and hit Enter to add the 
+# package, sudo pip install --upgrade azure-cognitiveservices-speech
 
 # Creates an instance of a speech config with specified subscription key and service region.
 # Replace with your own subscription key and service region (e.g., "westus").
